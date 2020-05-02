@@ -10,11 +10,13 @@ import React from "react";
 // import Familia from "./components/Familia";
 // import Membro from "./components/Membro";
 // import ComponenteComFuncao from "./components/ComponenteComFuncao";
-import Pai from "./components/Pai";
+// import Pai from "./components/Pai";
+import Contador from "./components/Contador";
 
 const element = document.getElementById('root')
 ReactDom.render(
     <div>
         {/* <ComponentClass valor='Sou um componente de classe!'></ComponentClass> */}
         {/* <Pai></Pai> */}
+        <Contador numero={0}></Contador>
     </div> , element)
