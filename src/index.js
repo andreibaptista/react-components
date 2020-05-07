@@ -11,12 +11,14 @@ import React from "react";
 // import Membro from "./components/Membro";
 // import ComponenteComFuncao from "./components/ComponenteComFuncao";
 // import Pai from "./components/Pai";
-import Contador from "./components/Contador";
+// import Contador from "./components/Contador";
+import Hook from "./components/Hook";
 
 const element = document.getElementById('root')
 ReactDom.render(
     <div>
         {/* <ComponentClass valor='Sou um componente de classe!'></ComponentClass> */}
         {/* <Pai></Pai> */}
-        <Contador numero={0}></Contador>
+        {/*<Contador numeroInicial={100}></Contador>*/}
+        <Hook numeroInicial={100}></Hook>
     </div> , element)
